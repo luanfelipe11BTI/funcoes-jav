@@ -70,3 +70,13 @@
  
  console.log(numero)
  */
+
+ let numero = 10
+ 
+ const button = document.querySelector("button")
+ button.addEventListener("click", function (){
+     numero = numero + 1
+     console.log(numero)
+ })
+ 
+ console.log(numero)
