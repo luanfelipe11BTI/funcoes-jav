@@ -102,6 +102,8 @@
  console.log(somar(10,20))
  */
 
+ //Exercício//1
+
  let raio = Number(prompt("Digite o raio da esfera: "))
  let pi = 3.14159
  
@@ -112,3 +114,16 @@
  }
  
  calcularVolume()
+
+ calcularVolume()
+ */
+ 
+ let distanciaPercorrida = Number(prompt("Digite a distância percorrida em km: "))
+ let combustivelGasto = Number(prompt("Digite o combustível gasto: "))
+ 
+ let total = () =>{
+     alert(distanciaPercorrida/combustivelGasto)
+ }
+ 
+ total()
+ 
