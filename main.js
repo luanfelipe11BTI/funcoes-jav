@@ -19,8 +19,8 @@
  somar(20,12)
  */
 
- *
- Exemplo 3
+ /* Exemplo3
+ 
  function mensagemBoasVindas(nome, cargo){
      alert(`Seja bem-vindo(a),  ${cargo} ${nome}`)
  
@@ -81,7 +81,7 @@
  
  console.log(numero)
 
- */
+ 
  /*
  let numero = 10
  
