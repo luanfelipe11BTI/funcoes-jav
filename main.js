@@ -116,7 +116,8 @@
  calcularVolume()
 
  calcularVolume()
- */
+ 
+ // exercicio 2 //
  
  let distanciaPercorrida = Number(prompt("Digite a distância percorrida em km: "))
  let combustivelGasto = Number(prompt("Digite o combustível gasto: "))
@@ -126,4 +127,18 @@
  }
  
  total()
+
+ // exercicio 3 //
+ 
+ let horas = Number(prompt("Digite quantas horas foram gastas na viagem: "))
+ let velocidadeMedia = Number(prompt("Digite a velocidade média: "))
+ let quilometrosTotais = velocidadeMedia * horas
+ let quilometrosPorLitro = 12
+ 
+ function calcularLitros (){
+     let litrosCombustivel = quilometrosTotais / quilometrosPorLitro
+     console.log(litrosCombustivel.toFixed(3))
+ }
+ 
+ calcularLitros()
  
